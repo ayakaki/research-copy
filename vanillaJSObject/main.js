@@ -7,11 +7,12 @@ let user01 = {
   },
   favoriteFoods: ['りんご', 'お好み焼き'],
 };
+const user02 = { ...user01 };
+
 console.log('=== 1 ===');
 console.log(user01);
 
 console.log('=== 2 ===');
-const user02 = { ...user01 };
 user01.age = 49;
 console.log(user01);
 console.log(user02);
