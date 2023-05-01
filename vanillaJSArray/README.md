@@ -1,5 +1,6 @@
 # 出力結果
 
+```
 === 1 ===
 [ 'taro', 'hanako', 'sakichi' ]
 [ 'taro', 'hanako', 'sakichi' ]
@@ -28,3 +29,4 @@
 { nickname: 'hanako', age: 89 },
 { nickname: 'sakichi', age: 29 }
 ]
+```
