@@ -2,7 +2,8 @@ import { NextPage } from 'next';
 import { useState } from 'react';
 
 const ObjectPage: NextPage = () => {
-  const [counter, setCounter] = useState(0);
+  const [counter, setCounter] = useState(0); // 再描画用
+
   const [srcState, setSrcState] = useState({
     accountName: 'taro',
     age: 19,

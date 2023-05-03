@@ -15,8 +15,8 @@ const ObjectPage: NextPage = () => {
   let spreadCopyObj = { ...srcObj };
   let simpleCopyObj = srcObj;
 
-  // 再描画用
-  const [counter, setCounter] = useState(0);
+  const [counter, setCounter] = useState(0); // 再描画用
+
   const [spreadCopyState, setSpreadCopyState] = useState({ ...srcObj });
   const [simpleCopyState, setSimpleCopyState] = useState(srcObj);
 
