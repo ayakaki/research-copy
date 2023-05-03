@@ -1,4 +1,4 @@
-# research-copy-in-ts-js
+# research-copy-in-react
 
 ステートやオブジェクトのコピーが発生した際、コピー元とコピー先がどのように作用するのかを調査した。<br>
 ※参考情報として React.js を使わない場合の挙動もまとめた。<br>
