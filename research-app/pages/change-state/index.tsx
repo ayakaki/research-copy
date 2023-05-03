@@ -30,15 +30,14 @@ const ObjectPage: NextPage = () => {
     });
   };
 
+  const handleClick = () => {
+    setCounter(counter + 1);
+    console.log('再描画ボタン押下');
+  };
+
   return (
     <>
-      <button
-        onClick={() => {
-          setCounter(counter + 1);
-        }}
-      >
-        再描画
-      </button>
+      <button onClick={handleClick}>再描画</button>
       <h2>元のステート</h2>
       <p>srcState.accountName: {srcState.accountName}</p>
       <p>srcState.favoriteFoods[1]: {srcState.favoriteFoods[1]}</p>

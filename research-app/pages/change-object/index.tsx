@@ -25,17 +25,14 @@ const ObjectPage: NextPage = () => {
     srcObj.favoriteFoods[1] = 'すいか';
   };
 
-  console.log(srcObj);
+  const handleClick = () => {
+    setCounter(counter + 1);
+    console.log('再描画ボタン押下');
+  };
 
   return (
     <>
-      <button
-        onClick={() => {
-          setCounter(counter + 1);
-        }}
-      >
-        再描画
-      </button>
+      <button onClick={handleClick}>再描画</button>
       <h2>元のオブジェクト</h2>
       <p>srcObj.accountName: {srcObj.accountName}</p>
       <p>srcObj.favoriteFoods[1]: {srcObj.favoriteFoods[1]}</p>
